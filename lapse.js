@@ -19,7 +19,7 @@ const timer = setInterval(() => {
 }, time)
 
 lapses.innerHTML = numberOfLapses
-hearMe = "It is okay if you lapsed once, twice, or even 100 times. Future Youssef, don't quit no matter what! YOU HAVE TO FIGHT IT BACK"
+hearMe = "It is okay if you failed once, twice, or even 100 times. Future Youssef, don't quit no matter what! YOU HAVE TO FIGHT IT BACK"
 
 addLapse.addEventListener("click", () => {
     numberOfLapses += 1
